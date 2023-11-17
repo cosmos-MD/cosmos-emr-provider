@@ -8,33 +8,32 @@ The purpose of this contributor agreement ("Agreement") is to clarify and docume
 If You are an employee and have created the Contribution as part of your employment, You need to have Your employer approve this Agreement or sign the Entity version of this document. If You do not own the Copyright in the entire work of authorship, any other author of the Contribution should also sign this – in any event, please contact Us at info@cosmosmd.ca
 
 ## 1. Definitions
+"You" means the individual Copyright owner who Submits a Contribution to Us.
 
-    "You" means the individual Copyright owner who Submits a Contribution to Us.
+"Contribution" means any original work of authorship, including any original modifications or additions to an existing work of authorship, Submitted by You to Us, in which You own the Copyright.
 
-    "Contribution" means any original work of authorship, including any original modifications or additions to an existing work of authorship, Submitted by You to Us, in which You own the Copyright.
+"Copyright" means all rights protecting works of authorship, including copyright, moral and neighboring rights, as appropriate, for the full term of their existence.
 
-    "Copyright" means all rights protecting works of authorship, including copyright, moral and neighboring rights, as appropriate, for the full term of their existence.
+"Material" means the software or documentation made available by Us to third parties. When this Agreement covers more than one software project, the Material means the software or documentation to which the Contribution was Submitted. After You Submit the Contribution, it may be included in the Material.
 
-    "Material" means the software or documentation made available by Us to third parties. When this Agreement covers more than one software project, the Material means the software or documentation to which the Contribution was Submitted. After You Submit the Contribution, it may be included in the Material.
+"Submit" means any act by which a Contribution is transferred to Us by You by means of tangible or intangible media, including but not limited to electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, Us, but excluding any transfer that is conspicuously marked or otherwise designated in writing by You as "Not a Contribution."
 
-    "Submit" means any act by which a Contribution is transferred to Us by You by means of tangible or intangible media, including but not limited to electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, Us, but excluding any transfer that is conspicuously marked or otherwise designated in writing by You as "Not a Contribution."
+"Documentation" means any non-software portion of a Contribution.
 
-    "Documentation" means any non-software portion of a Contribution.
 ## 2. License grant
 ### 2.1 Copyright license to Us
+Subject to the terms and conditions of this Agreement, You hereby grant to Us a worldwide, royalty-free, Exclusive, perpetual and irrevocable (except as stated in Section 8.2) license, with the right to transfer an unlimited number of non-exclusive licenses or to grant sublicenses to third parties, under the Copyright covering the Contribution to use the Contribution by all means, including, but not limited to:
+publish the Contribution,
+modify the Contribution,
+prepare derivative works based upon or containing the Contribution and/or to combine the Contribution with other Materials,
+reproduce the Contribution in original or modified form,
+distribute, to make the Contribution available to the public, display and publicly perform the Contribution in original or modified form.
 
-    Subject to the terms and conditions of this Agreement, You hereby grant to Us a worldwide, royalty-free, Exclusive, perpetual and irrevocable (except as stated in Section 8.2) license, with the right to transfer an unlimited number of non-exclusive licenses or to grant sublicenses to third parties, under the Copyright covering the Contribution to use the Contribution by all means, including, but not limited to:
-        publish the Contribution,
-        modify the Contribution,
-        prepare derivative works based upon or containing the Contribution and/or to combine the Contribution with other Materials,
-        reproduce the Contribution in original or modified form,
-        distribute, to make the Contribution available to the public, display and publicly perform the Contribution in original or modified form.
 ### 2.2 Moral rights
+Moral Rights remain unaffected to the extent they are recognized and not waivable by applicable law. Notwithstanding, You may add your name to the attribution mechanism customary used in the Materials you Contribute to, such as the header of the source code files of Your Contribution, and We will respect this attribution when using Your Contribution.
 
-    Moral Rights remain unaffected to the extent they are recognized and not waivable by applicable law. Notwithstanding, You may add your name to the attribution mechanism customary used in the Materials you Contribute to, such as the header of the source code files of Your Contribution, and We will respect this attribution when using Your Contribution.
 ### 2.3 Copyright license back to You
-
-    Upon such grant of rights to Us, We immediately grant to You a worldwide, royalty-free, non-exclusive, perpetual and irrevocable license, with the right to transfer an unlimited number of non-exclusive licenses or to grant sublicenses to third parties, under the Copyright covering the Contribution to use the Contribution by all means, including, but not limited to:
+Upon such grant of rights to Us, We immediately grant to You a worldwide, royalty-free, non-exclusive, perpetual and irrevocable license, with the right to transfer an unlimited number of non-exclusive licenses or to grant sublicenses to third parties, under the Copyright covering the Contribution to use the Contribution by all means, including, but not limited to:
         publish the Contribution,
         modify the Contribution,
         prepare derivative works based upon or containing the Contribution and/or to combine the Contribution with other Materials,
