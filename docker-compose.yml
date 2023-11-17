@@ -5,7 +5,7 @@ services:
     build: .
     container_name: medplum-client-devcontainer
     hostname: medplum-client-dev.local
-    working_dir: /workspace
+    working_dir: /usr/app
     volumes:
-      - ..:/workspace
+      - ..:/usr/app/medplum-client
     command: sleep infinity
