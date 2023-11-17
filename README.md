@@ -1,4 +1,4 @@
-# cosmos-emr [GitHub License]
+# cosmos-emr - an AGPL3 licensed project
 cosmosMD open-source electronic medical record system - this is currently in development and not fully functional - we welcome you to be a part of our journey! 
 
 #Contributing
