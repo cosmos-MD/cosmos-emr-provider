@@ -1,44 +1,60 @@
 {
-    "name": "root",
-    "version": "1.0",
-    "devDependencies": {
-      "@babel/core": "7.23.3",
-      "@babel/preset-env": "7.23.3",
-      "@babel/preset-react": "7.23.3",
-      "@babel/preset-typescript": "7.23.3",
-      "@cyclonedx/cyclonedx-npm": "1.14.2",
-      "@microsoft/api-documenter": "7.23.11",
-      "@microsoft/api-extractor": "7.38.2",
-      "@types/jest": "29.5.8",
-      "@types/node": "20.9.0",
-      "babel-jest": "29.7.0",
-      "babel-preset-vite": "1.1.0",
-      "cross-env": "7.0.3",
-      "danger": "11.3.0",
-      "esbuild": "0.19.5",
-      "identity-obj-proxy": "3.0.0",
-      "jest": "29.7.0",
-      "jest-environment-jsdom": "29.7.0",
-      "npm-check-updates": "16.14.6",
-      "nyc": "15.1.0",
-      "prettier": "3.0.3",
-      "rimraf": "5.0.5",
-      "sort-package-json": "2.6.0",
-      "source-map-explorer": "2.5.3",
-      "ts-node": "10.9.1",
-      "tslib": "2.6.2",
-      "turbo": "1.10.16",
-      "typescript": "5.2.2"
-    },
-    "packageManager": "npm@9.8.1",
-    "engines": {
-      "node": ">=18.0.0"
-    },
-    "overrides": {
-      "esbuild": "0.19.5",
-      "got": "11.8.6",
-      "react": "18.2.0",
-      "react-dom": "18.2.0",
-      "trim": "0.0.3"
-    }
+  "name": "medplum-client",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc && vite build",
+    "coverage": "jest --coverage",
+    "dev": "vite",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix src",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@medplum/eslint-config"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
+    "@babel/preset-react": "7.22.15",
+    "@babel/preset-typescript": "7.23.2",
+    "@emotion/babel-plugin": "11.11.0",
+    "@mantine/core": "6.0.21",
+    "@mantine/hooks": "6.0.21",
+    "@mantine/ds": "6.0.21",
+    "@mantine/notifications": "6.0.21",
+    "@medplum/core": "2.1.12",
+    "@medplum/eslint-config": "2.1.12",
+    "@medplum/fhirtypes": "2.1.12",
+    "@medplum/mock": "2.1.12",
+    "@medplum/react": "2.1.12",
+    "@tabler/icons-react": "2.39.0",
+    "@testing-library/jest-dom": "6.1.4",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "29.5.5",
+    "@types/node": "20.8.6",
+    "@types/react": "18.2.28",
+    "@types/react-dom": "18.2.13",
+    "@vitejs/plugin-react": "4.1.0",
+    "babel-jest": "29.7.0",
+    "c8": "8.0.1",
+    "chart.js": "4.4.0",
+    "fast-json-patch": "3.1.1",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "jest-transform-stub": "2.0.0",
+    "jsdom": "22.1.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.16.0",
+    "typescript": "5.2.2",
+    "vite": "4.4.11"
   }
+}

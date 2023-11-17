@@ -7,8 +7,8 @@
     // service refers to a docker container name that must exist and be 
     // defined in docker-compose.yaml 
     "service": "devcontainer",
-    "workspaceFolder": "/workspace",
-    "extensions": [
+    "workspaceFolder": "/usr/app/medplum-client",
+    "extensions": 
 	    "Codium.codium",
 	    "christian-kohler.npm-intellisense",
 	    "christian-kohler.path-intellisense",
@@ -35,7 +35,7 @@
         "rtbenfield.vscode-jest-test-adapter",
     ],
     "shutdownAction": "stopCompose",
-    "remoteUser": "node",
+    "remoteUser": "devuser",
     "settings": {
         "files.eol": "\n",
         "editor.tabSize": 2,
