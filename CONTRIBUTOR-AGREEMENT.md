@@ -89,18 +89,6 @@ If any provision of this Agreement is found void and unenforceable, such provisi
 ### 9.5 
 You agree to notify Us of any facts or circumstances of which you become aware that would make this Agreement inaccurate in any respect.
 
-## Sign
-    You
-    Date:	
-    Name:	
-    Title:	
-    Address:	
-    Us
-    Date:	
-    Name:	
-    Title:	
-    Address:	
-
 # Contributor Agreement - Entity Contributor Exclusive License Agreement - (including the Traditional Patent License OPTION)
 Thank you for your interest in contributing to cosmosMD's cosmosEMR ("We" or "Us").
 
@@ -192,18 +180,6 @@ If any provision of this Agreement is found void and unenforceable, such provisi
 
 ### 9.5 
 You agree to notify Us of any facts or circumstances of which you become aware that would make this Agreement inaccurate in any respect.
-
-### Sign
-    You
-    Date:	
-    Name:	
-    Title:	
-    Address:	
-    Us
-    Date:	
-    Name:	
-    Title:	
-    Address:	
 
 ## Acknowledgements 
 With thanks to ContributorAgreements.org for assistance in providing a base agreement. 
