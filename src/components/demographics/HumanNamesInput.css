@@ -1,16 +1,36 @@
-/* Basic styles for the HumanNamesInput component */
-.humanNameInputContainer {
+.humanNameInputStyle {
+  flex: 1;
+}
+
+.paperStyle {
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  top: 100%;
+  left: 0;
+}
+
+.humanNamesContainer {
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  width: 100%;
 }
 
-.humanNameInputRow {
+.preferredNameStyle {
+  font-weight: bold;
+}
+
+.rowStyle {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
-.humanNameInputLabel {
-  margin-right: 10px;
+.textStyle,
+.preferredNameStyle {
+  flex: 0 0 auto;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
