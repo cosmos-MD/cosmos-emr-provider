@@ -1,0 +1,16 @@
+/* Basic styles for the HumanNamesInput component */
+.humanNameInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.humanNameInputRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.humanNameInputLabel {
+  margin-right: 10px;
+}

@@ -1,12 +1,25 @@
 import React from 'react';
 import { Box, Text, Flex, useMantineTheme } from '@mantine/core';
+import HumanNamesInput from './demographics/HumanNamesInput';
 
+/**
+ * Demographics component that renders demographic information input fields.
+ *
+ * @returns {JSX.Element} The rendered JSX element.
+ */
 export function Demographics(): JSX.Element {
   const { colorScheme } = useMantineTheme();
 
-  // Adjusting background and text color based on the theme
+  // Dynamic background and text color based on the theme
   const backgroundColor = colorScheme === 'dark' ? '#333' : '#f8f8f8';
   const textColor = colorScheme === 'dark' ? '#fff' : '#000';
+
+  // Example name options for initial testing of HumanNamesInput
+  const nameOptions = [
+    { label: 'Health Card Name', nameType: 'official', required: true, unique: true },
+    { label: 'Preferred Name', nameType: 'usual', required: false, unique: true },
+    { label: 'Previous Name', nameType: 'old', required: false, unique: false }
+  ];
 
   return (
     <Flex direction="column" align="center" style={{ padding: '2px' }}>
@@ -18,7 +31,8 @@ export function Demographics(): JSX.Element {
         >
           Demographics
         </Text>
-        {/* Placeholder for future component */}
+        {/* Integration of the HumanNamesInput component with example name options */}
+        <HumanNamesInput nameOptions={nameOptions} priorityName="Preferred Name" />
       </Box>
     </Flex>
   );
