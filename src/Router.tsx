@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Demographics } from './components/Demographics';
+import { Demographics } from './components/demographics/Demographics';
 import { Administration } from './components/Administration';
 import { Billing } from './components/Billing';
 
