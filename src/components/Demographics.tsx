@@ -1,3 +1,12 @@
+/*
+ * Copyright 2023 cosmosMD
+ *
+ * This file is part of cosmos-emr-provider and is released under
+ * the terms of the GNU Affero General Public License v3.
+ * See the LICENSE file in the root of this project for more details,
+ * or <http://www.gnu.org/licenses/agpl-3.0.html>.
+ */
+
 import React from 'react';
 import { Box, Text, Flex, useMantineTheme } from '@mantine/core';
 import HumanNamesInput from './demographics/HumanNamesInput';
