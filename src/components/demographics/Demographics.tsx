@@ -9,7 +9,7 @@
 
 import React from 'react';
 import { Box, Text, Flex, useMantineTheme } from '@mantine/core';
-import HumanNamesInput from './demographics/HumanNamesInput';
+import HumanNamesInput from './HumanNamesInput';
 
 /**
  * Demographics component that renders demographic information input fields.
@@ -40,7 +40,6 @@ export function Demographics(): JSX.Element {
         >
           Demographics
         </Text>
-        {/* Integration of the HumanNamesInput component with example name options */}
         <HumanNamesInput nameOptions={nameOptions} priorityName="Preferred Name" />
       </Box>
     </Flex>
